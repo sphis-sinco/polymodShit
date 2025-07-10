@@ -9,8 +9,6 @@ class PlayState extends FlxState
 	override public function new()
 	{
 		super();
-
-		ModInit.initalizePolymod();
 	}
 
 	override public function create()
@@ -21,7 +19,5 @@ class PlayState extends FlxState
 	override public function update(elapsed:Float)
 	{
 		super.update(elapsed);
-		if (FlxG.keys.justReleased.BACKSPACE)
-			FlxG.switchState(ModMenu.new);
 	}
 }
