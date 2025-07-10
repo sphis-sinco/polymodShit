@@ -2,7 +2,6 @@ package;
 
 import flixel.FlxG;
 import flixel.FlxState;
-import modding.ModInit;
 
 class PlayState extends FlxState
 {

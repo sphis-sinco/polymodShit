@@ -13,7 +13,7 @@ class ModList
 	{
 		modList.set(mod, enabled);
 		FlxG.save.data.modList = modList;
-		FlxG.save.flushData();
+		FlxG.save.flush();
 	}
 
 	public static function getModEnabled(mod:String):Bool
